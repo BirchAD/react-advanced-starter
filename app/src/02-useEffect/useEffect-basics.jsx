@@ -1,7 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const UseEffectBasics = () => {
   const [count, setCount] = useState(0);
+  useEffect(() => {
+    console.log('Hello World')
+  }, [count]);
 
   return (
     <>

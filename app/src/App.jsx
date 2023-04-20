@@ -1,10 +1,10 @@
 import './App.css'
-import MultipleInputs from './04-forms/multiple-inputs.jsx';
+import Navlink from './05-context-api/propdrill-challenge-navbar.jsx'
 
 function App() {
   return (
     <div className="container">
-      < MultipleInputs />
+      < Navlink />
     </div>
   )
 }

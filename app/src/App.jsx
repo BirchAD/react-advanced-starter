@@ -1,10 +1,9 @@
 import './App.css'
-import UseEffectFetchData from './02-useEffect/useEffect-fetch-data';
-
+import FetchingData from '/src/03-conditional-rendering/fetching-data.jsx'
 function App() {
   return (
     <div className="container">
-      < UseEffectFetchData />
+      < FetchingData />
     </div>
   )
 }
